@@ -168,35 +168,35 @@ All findings are classified according to **OWASP Mobile Top 10** standards:
 ```
 AndroidSecAnalyzer/
 ├── androidsec/
-│ ├── cli/ # CLI interface (Click)
-│ │ └── commands/ # scan, report commands
-│ ├── core/ # Main engine & configuration
-│ │ ├── analyzer.py # Central orchestrator
-│ │ ├── config_manager.py # YAML configuration
-│ │ ├── constants.py # Project-wide constants
-│ │ └── exceptions.py # Custom exceptions
-│ ├── static_analysis/ # Static analysis module
-│ │ ├── manifest/ # AndroidManifest.xml analysis
-│ │ ├── code/ # Source code scanning
-│ │ ├── certificate/ # Certificate validation
-│ │ └── native/ # Native .so analysis
-│ ├── dynamic_analysis/ # Dynamic analysis module
-│ │ ├── device/ # ADB wrapper & device manager
-│ │ ├── collectors/ # Logcat, network, storage
-│ │ └── frida/ # Frida hooks & scripts
-│ ├── correlation/ # Finding correlation & risk scoring
-│ │ ├── correlator.py # Static-dynamic correlation
-│ │ └── risk_calculator.py # Weighted risk scoring
-│ ├── reporting/ # Report generation
-│ │ ├── generator.py # Report orchestrator
-│ │ ├── html_formatter.py # HTML report template
-│ │ └── json_formatter.py # JSON report formatter
-│ └── utils/ # Utilities & logging
-├── config/ # Configuration files
-├── data/ # Vulnerability databases
-├── tests/ # Unit & integration tests
-├── input/ # APK files for analysis
-└── output/ # Analysis results & reports
+│ ├── cli/
+│ │ └── commands/
+│ ├── core/
+│ │ ├── analyzer.py
+│ │ ├── config_manager.py
+│ │ ├── constants.py
+│ │ └── exceptions.py
+│ ├── static_analysis/
+│ │ ├── manifest/
+│ │ ├── code/
+│ │ ├── certificate/
+│ │ └── native/
+│ ├── dynamic_analysis/
+│ │ ├── device/
+│ │ ├── collectors/
+│ │ └── frida/
+│ ├── correlation/
+│ │ ├── correlator.py
+│ │ └── risk_calculator.py
+│ ├── reporting/
+│ │ ├── generator.py
+│ │ ├── html_formatter.py
+│ │ └── json_formatter.py
+│ └── utils/
+├── config/
+├── data/
+├── tests/
+├── input/
+└── output/
 ```
 
 ---
