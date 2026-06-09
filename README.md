@@ -6,7 +6,7 @@
 
 > A comprehensive security analysis platform that automatically detects vulnerabilities in Android applications using both static and dynamic analysis techniques.
 
-![Dashboard](docs/Dashboard.png)
+![Demo](docs/demo.gif)
 
 ---
 
