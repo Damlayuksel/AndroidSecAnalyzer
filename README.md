@@ -236,6 +236,7 @@ AndroidSecAnalyzer/
 - [x] Static + dynamic correlation engine
 - [x] Risk scoring system
 - [x] Report generation (HTML + JSON)
+- [x] FastAPI web dashboard with real-time analysis
 - [x] Comprehensive testing phase
 
 ---
