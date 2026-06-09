@@ -217,7 +217,7 @@ AndroidSecAnalyzer/
 
 | Metric | Value |
 |:---|:---:|
-| Total Lines of Code | **~9,000** |
+| Total Lines of Code | **~11,750** |
 | Security Checks | **40+** |
 | OWASP Category Coverage | **10/10** |
 | Analysis Modules | **8** |
