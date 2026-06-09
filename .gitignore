@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+
+# Proje çıktıları
+output/uploads/
+output/decompiled/
+output/reports/
+output/logs/
+output/artifacts/
+
+# APK dosyaları
+*.apk
+input/apk/
+
+# Araçlar (kullanıcı kendi kuracak)
+tools/jadx/
+
+# macOS
+.DS_Store
+
+# IDE
+tempCodeRunnerFile.py
+.vscode/

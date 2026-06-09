@@ -1,0 +1,13 @@
+# Web arayüzü
+fastapi
+uvicorn[standard]
+
+# CLI
+click
+
+# Konfigürasyon
+pyyaml
+
+# Dinamik analiz (opsiyonel — yalnızca Dinamik Analiz ve Active Hacking modları için gerekli)
+frida
+frida-tools

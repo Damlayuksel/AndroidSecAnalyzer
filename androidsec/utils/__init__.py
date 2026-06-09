@@ -1,0 +1,11 @@
+"""
+Utils module initialization
+Yardımcı fonksiyonlar modülü
+"""
+
+from androidsec.utils.logger import setup_logger, get_logger
+
+__all__ = [
+    "setup_logger",
+    "get_logger",
+]

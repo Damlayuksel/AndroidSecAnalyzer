@@ -1,0 +1,5 @@
+analysis:
+  max_file_size: 104857600  # 100MB
+
+dynamic:
+  log_duration: 30  # seconds
