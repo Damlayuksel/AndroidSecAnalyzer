@@ -201,6 +201,18 @@ AndroidSecAnalyzer/
 
 ---
 
+## Sample Output
+
+### Static & Dynamic Analysis Results
+
+![Results](docs/results.png)
+
+### Active Hacking Results
+
+![Active Hacking Results](docs/results1.png)
+
+---
+
 ## Project Statistics
 
 | Metric | Value |
